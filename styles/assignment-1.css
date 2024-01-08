@@ -169,3 +169,59 @@ main section {
     font-weight: 700;
     border: 0px;
 }
+
+.fourth-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.round-pic>img {
+
+    width: 364.844px;
+    height: 364.844px;
+    border-radius: 364.844px;
+    border: 15px solid #F00;
+    padding: 30px;
+}
+
+.fourth-section-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.fourth-section-sub-titte {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.fourth-section-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0px;
+    width: 393px;
+    margin-bottom: 40px;
+}
+
+.year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
