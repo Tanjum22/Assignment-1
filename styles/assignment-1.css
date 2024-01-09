@@ -96,7 +96,7 @@ main section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-right: 200px;
+    padding-right: 300px;
 }
 
 .second-section-title {
@@ -233,6 +233,65 @@ main section {
     margin-bottom: 15px;
 }
 
+.fifth-section-content {
+    display: block;
+    text-align: center;
+}
+
+.fifth-section-heading {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.red-text {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.fifth-section-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.fifth-section-description {
+    max-width: ;width: 900px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pic-container{
+    margin-top: 70px;
+    background-image: url('../resources/Rectangle\ 2.png'),url(../resources/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: bottom ,top rightF;
+    
+}
+.first-two-pic{
+    display: flex;
+    
+}
+
+#discount{
+    margin-left: -60px;
+}
+
 .sixth-section {
     background: #FFF;
 
@@ -321,11 +380,10 @@ main section {
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
     border: 0px;
     margin-top: 0px;
-    margin-left: -30px;
+    margin-left: -40px;
     margin-bottom: 50px;
 }
 
@@ -336,7 +394,7 @@ main section {
     background: #FFF;
     border: 0px;
     color: rgba(7, 2, 17, 0.30);
-    text-align: center;
+    padding-left: 80px;
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
@@ -374,24 +432,28 @@ hr {
     margin: 0px 220px 50px 120px;
     width: 1320px;
     height: 0px;
-    color: black;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    ;
     margin-top: 30px;
 }
 
-.social-icons-container{
+.social-icons-container {
     display: inline-block;
 }
-.social-icons{
+
+.social-icons {
     width: 50px;
     height: 50px;
-    padding-right:20px ;
+    padding-right: 20px;
 }
-.center{
+
+.center {
     margin-left: 650px;
 }
-.copyright{
+
+.copyright {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 50px 120px 120px;
     justify-items: center;
 }
